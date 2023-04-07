@@ -1,0 +1,30 @@
+{
+    "name": "asendari/web-service-barcode-laravel",
+    "description": "A SOAP implementation for Post.ch WebService Barcode",
+    "license": "MIT",
+    "keywords": ["laravel", "postch", "barcode"],
+    "authors": [
+        {
+            "name": "Thomas Lohner",
+            "email": "thomas@stormbolt.ch"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "illuminate/support": "^6|^7|^8|^9|^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asendari\\WebServiceBarcode\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asendari\\WebServiceBarcode\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
