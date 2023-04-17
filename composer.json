@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Asendari\\WebServiceBarcode\\": "src"
+            "Asendari\\WebServiceBarcode\\": "src/"
         }
     },
     "extra": {

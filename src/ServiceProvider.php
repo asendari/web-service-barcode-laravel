@@ -11,5 +11,9 @@ class ServiceProvider extends IlluminateServiceProvider {
     {}
 
     public function boot(): void
-    {}
+    {
+        $this->publishes([
+            __DIR__.'/../config/barcode.php' => config_path('barcode.php'),
+        ], 'config');
+    }
 }
